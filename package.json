@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist --add",
+"deploy": "gh-pages -d dist --branch=deploy2 --repo=https://github.com/ash-kick/padre-ginos.git",
     "preview": "vite preview",
     "test": "vitest",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
